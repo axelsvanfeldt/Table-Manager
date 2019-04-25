@@ -1,0 +1,31 @@
+{
+    "manifest_version": 2,
+    "name": "Table Manager",
+    "version": "1.1.2",
+    "author": "Axel Svanfeldt",
+    "description": "Allows you to dynamically sort HTML tables displayed on the web - and export it's data!",
+    "permissions": ["*://*/*", "storage", "tabs", "activeTab", "<all_urls>"],
+    "background": {
+        "scripts": ["js/background.js"],
+        "persistent": false
+    },
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "img/logos/logo-16.png",
+            "32": "img/logos/logo-32.png",
+            "48": "img/logos/logo-48.png",
+            "128": "img/logos/logo-128.png"
+        }        
+    },
+    "options_ui": {
+        "page": "options.html",
+        "open_in_tab": false
+    },
+    "icons": {
+        "16": "img/logos/logo-16.png",
+        "32": "img/logos/logo-32.png",
+        "48": "img/logos/logo-48.png",
+        "128": "img/logos/logo-128.png"
+    }
+}

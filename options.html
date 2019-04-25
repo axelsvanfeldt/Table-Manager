@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="css/options.css" type="text/css" media="all">
+</head>
+<body>
+    <div class="options-group">
+        <h4>General Options</h4>
+        <div class="input-group">
+            <p>Extension staus:</p>
+            <input type="radio" id="extension_enabled_true" name="extension_enabled" value="true" checked>
+            <label>Activated</label>
+            <br>
+            <input type="radio" id="extension_enabled_false" name="extension_enabled" value="false">
+            <label>Deactivated</label>
+            <br>
+        </div>
+        <div class="input-group">
+            <p>Included extension functions:</p>
+            <input type="checkbox" id="extension_functions_sort" name="extension_functions" value="sort" checked>
+            <label>Sortable tables</label>
+            <br>
+            <input type="checkbox" id="extension_functions_download" name="extension_functions" value="download" checked>
+            <label>Export data</label>
+        </div>
+    </div>
+    
+    <div class="options-group">
+        <h4>Sorting Data</h4>
+        <div class="input-group">
+            <p>Default sort order:</p>
+            <input type="radio" id="sort_ascending_true" name="sort_ascending" value="true" checked>
+            <label>Ascending</label>
+            <br>
+            <input type="radio" id="sort_ascending_false" name="sort_ascending" value="false">
+            <label>Descending</label>
+        </div>
+    </div>
+    
+    <div class="options-group">
+        <h4>Export Data</h4>
+        <div class="input-group">
+            <p>Select file format:</p>
+            <input type="radio" id="save_csv_true" name="save_csv" value="true" checked>
+            <label>Excel file</label>
+            <br>
+            <input type="radio" id="save_csv_false" name="save_csv" value="false">
+            <label>Text file</label>
+        </div>        
+        <div class="input-group">
+            <p>Select which value to save if table column contains link:</p>
+            <input type="radio" id="save_url_false" name="save_url" value="false" checked>
+            <label>Text</label>
+            <br>
+            <input type="radio" id="save_url_true" name="save_url" value="true">
+            <label>URL</label>
+        </div>
+        <div class="input-group">
+            <p>Include table footer:</p>
+            <input type="radio" id="save_footer_false" name="save_footer" value="false" checked>
+            <label>No</label>
+            <br>
+            <input type="radio" id="save_footer_true" name="save_footer" value="true">
+            <label>Yes</label>
+        </div>
+        <div class="input-group">
+            <p>Select an optional row limit when exporting table data:</p>
+            <p><em>A value of "0" will return all rows.</em></p>
+            <input id="row_limit"  name="row_limit" type="number" min="0" max="500" value="0">
+        </div>        
+    </div>
+    
+    <div class="options-group">
+        <h4>Reset Options</h4>
+        <p id="reset">Reset to defaults</p>
+    </div>
+    
+    <script src="js/options.js"></script>
+</body>
+</html>

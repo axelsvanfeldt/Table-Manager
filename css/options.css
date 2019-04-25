@@ -1,0 +1,32 @@
+body {
+    font-size: 13px;
+    padding: 8px;}
+
+img {
+    width: 32px;
+    display: inline-block;
+    vertical-align: top;}
+h4 {
+    padding-bottom: 8px;
+    border-bottom: 1px solid #CCC;
+    margin: 0 0 10px 0;}
+p {
+    margin: 0 0 8px 0;}
+
+.options-group {
+    width: calc(100% - 30px);
+    padding: 14px 14px 0 14px;
+    border: 1px solid #CCC;
+    margin-bottom: 20px;}
+.input-group {
+    margin-bottom: 14px;}
+
+input[name="row_limit"] {
+    padding-left: 4px;
+    width: calc(100% - 8px);}
+
+#reset {
+    color: #0099cc;}
+#reset:hover {
+    cursor: pointer;
+    color: #339933;}
