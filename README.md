@@ -4,9 +4,9 @@
 
 1. Clone or extract Table Manager to any location on your hard drive.
 2. Open chrome://extensions/ in Google Chrome.
-3. Enable developed mode by clicking on "Developer mode" in the top right corner.
-4. Click "Load unpacked" and browse to the Table Manager folder you extracted in step 1.
-5. Optionally disable developer mode clicking on "Developer mode" in the top right corner.
+3. Enable developer mode by clicking on "Developer mode" in the top right corner.
+4. Click "Load unpacked" and select the path of where you extracted Table Manager in step 1.
+5. Optionally disable developer mode by clicking on "Developer mode" in the top right corner.
 
 ## How to use:
 
