@@ -64,18 +64,8 @@
                             case "extension_functions":
                                 document.getElementById("extension_functions_sort").checked = false;
                                 document.getElementById("extension_functions_download").checked = false;
-                                if (data[option].indexOf("sort") === -1) {
-                                    document.getElementById("extension_functions_sort").checked = false;
-                                }
-                                else {
-                                    document.getElementById("extension_functions_sort").checked = true;
-                                }
-                                if (data[option].indexOf("download") === -1) {
-                                    document.getElementById("extension_functions_download").checked = false;
-                                }
-                                else {
-                                    document.getElementById("extension_functions_download").checked = true;
-                                }
+                                document.getElementById("extension_functions_sort").checked = (data[option].indexOf("sort") === -1) ? false : true;
+                                document.getElementById("extension_functions_download").checked = (data[option].indexOf("download") === -1) ? false : true;
                                 break;
                             case "row_limit":
                                 document.getElementById("row_limit").value = data[option];

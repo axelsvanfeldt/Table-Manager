@@ -35,12 +35,7 @@ const content = {
     optionsChanged: () => {
         if (content.options.extension_enabled) {
             content.addListeners();
-            if (content.options.extension_functions.indexOf("sort") === -1) {
-                content.editCss(false);
-            }
-            else {
-                content.editCss(true);
-            }
+            (content.options.extension_functions.indexOf("sort") === -1) ? content.editCss(false) : content.editCss(true);
         }
         else {
             content.editCss(false);
