@@ -12,7 +12,7 @@
 
 Table Manager allows you to dynamically sort HTML tables by a specific column by clicking on the column header of your choice.
 The extension will automatically alter between alphabetical order, numerical order and sorting by dates, depending on the values of the selected column.
-You will also be export it's data - either to a .txt file or a .csv file - by clicking on the blue export button that appears in the left top corner of the table you are hovering.
+You will also be able to export it's data - either to a .txt file or a .csv file - by clicking on the blue export button that appears in the left top corner of the table you are hovering.
 The behaviour of Table Manager can easily be customized by entering the extension options.
 
 *Note that Table Manager is intended to be used on standard tables with equal colspan when sorting rows.*
